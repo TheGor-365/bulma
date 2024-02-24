@@ -1,0 +1,19 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <%= link_to 'Blog', root_path, class: 'navbar-item' %>
+  </div>
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <%= link_to 'Posts', posts_path, class: 'navbar-item' %>
+      <%= link_to 'New Post', new_post_path, class: 'navbar-item' %>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <%#= link_to 'Sign up', new_user_registraion_path, class: 'button is-primary' %>
+          <%#= link_to 'Sign in', new_user_session_path, class: 'button is-light' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

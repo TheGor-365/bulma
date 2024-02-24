@@ -11,6 +11,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <%= render 'layouts/nav' %>
+    </header>
+
+    <main>
+      <div class="container is-fluid">
+        <%= yield %>
+      </div>
+    </main>
   </body>
 </html>
